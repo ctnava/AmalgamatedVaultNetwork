@@ -4,7 +4,7 @@ Documentation of the Amalgamated Token Commerce Network
 ## Concept
 The Vault Amalgam Network is a way to store gas, ERC20s, ERC1155s, and ERC721s in bundles.
 It's components can be categorized into 3 distinguishable parts: the CORE, VAULTS, and SERVICES.
-![](https://github.com/ctnava/AmalgamatedVaultNetwork/contracts/blob/layout.PNG) placeholder_image
+![](https://github.com/ctnava/AmalgamatedVaultNetwork/blob/main/contracts/blob/layout.png)
 
 At it's CORE, Amalgamation Engine (VaultAmalgamator.sol) is the control center for, or is the heart of, 
 the entire ecosystem, capable of replacing contracts as modules that it leans on for basic functions. 
@@ -17,7 +17,7 @@ Services powered by this ecosystem directly interact with the core contract to s
 appropriate vaults, while also storing an open record of activity on itself. Each bundle is labeled with an address
 for the service provider; meaning that the core contract will only allow service contracts to interact with deposits 
 that they have registered.
-![](https://github.com/ctnava/AmalgamatedVaultNetwork/contracts/blob/asset_flow.PNG) placeholder_image
+![](https://github.com/ctnava/AmalgamatedVaultNetwork/blob/main/contracts/blob/asset_flow.png)
 
 In the event that a vault must be ejected (for upgrades), asset owners may still retrieve their belongings because
 vaults not only hold the assets, but also maintain a public record of ownership. In addition, the core contract 

@@ -1,0 +1,40 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.1.0'
+
+# automatically fetch contract sources from Etherscan
+autofetch_sources: True
+dotenv: .env
+# set a custom mnemonic for the development network
+
+networks:
+  default: development
+
+  development:
+    host: http://localhost:123456
+    default_balance: '10000 ether'
+
+  ganache:
+    gas_limit: auto
+    gas_buffer: 1.1
+    gas_price: auto
+    reverting_tx_gas_limit: false
+    default_contract_owner: false
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+  testnet_key: 8c971ca151139b3703ad2c38d583521eda82d7798112aca44a2001128b72243e
+  alt_testnet_key: 6ba3989082d88402bb1f6d07987fb131ae7e1c92f124985e3d71fe79b3291372
+  # CuneiformTestnetBanks
+  from_mnemonic: ${MNEMONIC}
+  # You'd have to change the accounts.add to accounts.from_mnemonic to use from_mnemonic
+  
+  
+api:
+    defi_pulse: c2c335599f57816dcfe1442e90184faa3048c10436b12ca334c4ad21a8db
+    etherscan: DZRI9HHSM4JK4A5WV3KK6UWWZ4QSFTN66V
+    

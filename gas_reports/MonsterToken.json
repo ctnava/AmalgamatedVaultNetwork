@@ -1,0 +1,236 @@
+{
+    "gas_used": 2839801,
+    "gas_limit": 3123781,
+    "gas_price": "16 gwei",
+    "address": "0x777B347bc6167aE2B686Ac76aad2fe253215dc47",
+    "constructor_arguments": [
+        "Monster Fan Club 1",
+        "MFC1",
+        [
+            "0xa65AfE930176281f104dd236C7D6789e38DbdC7d"
+        ],
+        [
+            100
+        ],
+        "https://monsterfanclub.ngrok.io/metadata/",
+        20,
+        1e+16,
+        5,
+        "https://metadata-url.com/my-metadata"
+    ],
+    "methods": [
+        {
+            "function": "approve",
+            "gas_used": 48828,
+            "gas_limit": 53710,
+            "gas_price": "19 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "buyToken",
+            "gas_used": 76735,
+            "gas_limit": 84408,
+            "gas_price": "38 gwei",
+            "stateMutability": "payable",
+            "inputs": [
+                {
+                    "internalType": "uint256[]",
+                    "name": "monsterIds_",
+                    "type": "uint256[]"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "release",
+            "gas_used": 82286,
+            "gas_limit": 91445,
+            "gas_price": "19 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address payable",
+                    "name": "account",
+                    "type": "address"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "renounceOwnership",
+            "gas_used": 23359,
+            "gas_limit": 30974,
+            "gas_price": "16 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [],
+            "outputs": []
+        },
+        {
+            "function": "safeTransferFrom",
+            "gas_used": 60504,
+            "gas_limit": 71834,
+            "gas_price": "26 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "safeTransferFrom",
+            "gas_used": 60504,
+            "gas_limit": 71834,
+            "gas_price": "26 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "_data",
+                    "type": "bytes"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "setApprovalForAll",
+            "gas_used": 46161,
+            "gas_limit": 50777,
+            "gas_price": "15 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "operator",
+                    "type": "address"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "approved",
+                    "type": "bool"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "setBaseURI",
+            "gas_used": 31964,
+            "gas_limit": 43949,
+            "gas_price": "16 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "newBaseURI_",
+                    "type": "string"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "setContractURI",
+            "gas_used": 31946,
+            "gas_limit": 43925,
+            "gas_price": "62 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "contractURI_",
+                    "type": "string"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "toggleSaleState",
+            "gas_used": 23720,
+            "gas_limit": 31372,
+            "gas_price": "15 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [],
+            "outputs": []
+        },
+        {
+            "function": "transferFrom",
+            "gas_used": 55646,
+            "gas_limit": 71770,
+            "gas_price": "15 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "function": "transferOwnership",
+            "gas_used": 28736,
+            "gas_limit": 31609,
+            "gas_price": "15 gwei",
+            "stateMutability": "nonpayable",
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "newOwner",
+                    "type": "address"
+                }
+            ],
+            "outputs": []
+        }
+    ]
+}

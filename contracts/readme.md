@@ -17,6 +17,8 @@ Services powered by this ecosystem directly interact with the core contract to s
 appropriate vaults, while also storing an open record of activity on itself. Each bundle is labeled with an address
 for the service provider; meaning that the core contract will only allow service contracts to interact with deposits 
 that they have registered.
+
+WIP
 ![](https://github.com/ctnava/AmalgamatedVaultNetwork/blob/main/contracts/blob/asset_flow.png)
 
 In the event that a vault must be ejected (for upgrades), asset owners may still retrieve their belongings because
